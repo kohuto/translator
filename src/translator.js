@@ -6,19 +6,10 @@ import copy from "./images/copy.png";
 import audio from "./images/audio-speaker-on.png";
 import close from "./images/close.png";
 function Translator(props) {
-  const alternativesCount = props.alternatives.length;
-  console.log(alternativesCount);
   const [textInput, setTextInput] = useState(props.textInput);
   const [textOutput, setTextOutput] = useState(props.textOutput);
   const [sourceLang, setSourceLang] = useState("en");
   const [targetLang, setTargetLang] = useState("fr");
-
-  function handleTextInputChange(event) {
-    setTextInput(event.target.value);
-  }
-  function handleTextOutputChange(event) {
-    setTextOutput(event.target.value);
-  }
 
   function handleSourceLangChange(event) {
     setSourceLang(event.target.value);
@@ -79,7 +70,7 @@ function Translator(props) {
         </div>
       </div>
 
-      {alternativesCount > 0 && (
+      {props.alternatives.length > 0 && (
         <div className="meanings-container">
           <p>Překlady výrazu {props.textInput}</p>
           <p style={{ color: "gray", marginTop: "20px" }}>podstatné jméno</p>
