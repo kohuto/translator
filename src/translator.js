@@ -55,33 +55,25 @@ function Translator(props) {
           <img src={close} alt="copy" />
         </div>
         <div className="side-column text-input">
-          <textarea
-            value={textInput}
-            onChange={handleTextInputChange}
-            placeholder="Zadejte text"
-          ></textarea>
+          <textarea value={textInput}></textarea>
           <div className="icons-input">
             <div>
-              <img src={mic} alt="copy" />
+              <img src={mic} alt="mic" />
             </div>
             <div>
-              <img src={audio} alt="copy" />
+              <img src={audio} alt="audio" />
             </div>
           </div>
         </div>
         <div className="middle-column"></div>
         <div className="side-column text-output">
-          <textarea
-            value={textOutput}
-            onChange={handleTextOutputChange}
-            placeholder="Překlad"
-          ></textarea>
+          <textarea value={textOutput}></textarea>
           <div className="icons-input">
             <div>
               <img src={copy} alt="copy" />
             </div>
             <div>
-              <img src={audio} alt="copy" />
+              <img src={audio} alt="audio" />
             </div>
           </div>
         </div>

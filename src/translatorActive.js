@@ -16,7 +16,7 @@ function TranslatorActive() {
   const [targetLang, setTargetLang] = useState("fr");
   const [copyDone, setCopyDone] = useState(false);
 
-  useEffect(() => {
+  /* useEffect(() => {
     setCopyDone(false);
     const selectedItem = data.find((item) => item.ostrava === textInput);
     if (selectedItem) {
@@ -26,16 +26,32 @@ function TranslatorActive() {
       setAlternatives([]);
       setTextOutput(textInput);
     }
-  }, [textInput]);
+  }, [textInput]);*/
+
+  useEffect(() => {
+    setCopyDone(false);
+    const selectedItem = data.find((item) => item.ostrava === textInput);
+    if (selectedItem) {
+      setAlternatives(selectedItem.alternatives);
+      if (targetLang === "sq") {
+        setTextOutput(selectedItem.en);
+      } else {
+        setTextOutput(selectedItem.cz);
+      }
+    } else {
+      setAlternatives([]);
+      setTextOutput(textInput);
+    }
+  }, [textInput, targetLang]);
 
   function handleTextInputChange(event) {
     setTextInput(event.target.value);
   }
-
+  /*  TODO: V2 add option Pražština
   function handleSourceLangChange(event) {
     setSourceLang(event.target.value);
   }
-
+*/
   function handleTargetLangChange(event) {
     setTargetLang(event.target.value);
   }

@@ -4,7 +4,7 @@ import TranslatorActive from "./translatorActive";
 
 function App() {
   return (
-    /*<>
+    /* <>
       {data.map((item, index) => (
         <Translator
           key={index}
