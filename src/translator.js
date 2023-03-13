@@ -28,10 +28,6 @@ function Translator(props) {
     setTargetLang(event.target.value);
   }
 
-  function handleTranslate() {
-    // Implement translation logic using the Google Translate API
-  }
-
   return (
     <div className="translator-container">
       <div className="language-selectors">

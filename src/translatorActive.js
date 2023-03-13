@@ -15,6 +15,7 @@ function TranslatorActive() {
   const [sourceLang, setSourceLang] = useState("en");
   const [targetLang, setTargetLang] = useState("fr");
   const [copyDone, setCopyDone] = useState(false);
+
   useEffect(() => {
     setCopyDone(false);
     const selectedItem = data.find((item) => item.ostrava === textInput);
@@ -45,25 +46,14 @@ function TranslatorActive() {
 
   function copyTextOutput() {
     setCopyDone(true);
-    const textarea = document.createElement("textarea");
-    document.body.appendChild(textarea);
-    textarea.value = textOutput;
-    textarea.select();
-    textarea.setSelectionRange(0, 99999);
-    document.execCommand("copy");
-    document.body.removeChild(textarea);
-
-    /*
-    const textOutputTextarea = document.querySelector(".text-output textarea");
-    textOutputTextarea.select();
-    document.execCommand("copy");*/
+    navigator.clipboard.writeText(textOutput);
   }
 
   return (
     <div className="translator-container">
       <div className="language-selectors">
         <div className="source-selector language-selector side-column">
-          <select value={sourceLang} onChange={handleSourceLangChange}>
+          <select value={sourceLang}>
             <option value="af">Ostravština</option>
           </select>
         </div>
@@ -134,12 +124,10 @@ function Alternatives(props) {
   return (
     <>
       {props.alternatives.map((item, index) => (
-        <>
-          <div key={index} className="alternative-translate">
-            {item}
-          </div>
+        <div key={index} className="alternative-translate">
+          {item}
           <hr></hr>
-        </>
+        </div>
       ))}
     </>
   );
