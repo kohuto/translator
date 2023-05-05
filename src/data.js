@@ -1,5 +1,47 @@
 export const data = [
   {
+    ostrava: "aji",
+    cz: "i",
+    en: "",
+    alternatives: ["také", "rovněž"],
+  },
+  {
+    ostrava: "amoleta",
+    cz: "palačinka",
+    en: "",
+    alternatives: [],
+  },
+  {
+    ostrava: "balamutit",
+    cz: "klamat",
+    en: "",
+    alternatives: ["obelhávat", "podvádět", "tahat za nos"],
+  },
+  {
+    ostrava: "baňa",
+    cz: "rána",
+    en: "",
+    alternatives: ["facka"],
+  },
+  {
+    ostrava: "baňka",
+    cz: "vánoční koule",
+    en: "",
+    alternatives: ["ozdoba na stromek"],
+  },
+  {
+    ostrava: "bebech",
+    cz: "zbytečná věc",
+    en: "",
+    alternatives: ["přebytečná věc"],
+  },
+  {
+    ostrava: "bedrunka",
+    cz: "slunéčko sedmitečné",
+    en: "",
+    alternatives: [],
+  },
+  {
     ostrava: "bo",
     cz: "protože",
     en: "because",
@@ -10,6 +52,12 @@ export const data = [
     cz: "měnit",
     en: "change",
     alternatives: [],
+  },
+  {
+    ostrava: "bulač",
+    cz: "záškolák",
+    en: "",
+    alternatives: ["člověk, co chodí za školu"],
   },
   {
     ostrava: "bulat",
@@ -24,6 +72,42 @@ export const data = [
     alternatives: ["pantofle", "obuv bez paty"],
   },
   {
+    ostrava: "cycek",
+    cz: "prso",
+    en: "boob",
+    alternatives: [],
+  },
+  {
+    ostrava: "cyp",
+    cz: "nemotorný horník",
+    en: "",
+    alternatives: [],
+  },
+  {
+    ostrava: "cypovina",
+    cz: "hloupost",
+    en: "",
+    alternatives: ["blbost"],
+  },
+  {
+    ostrava: "čobol",
+    cz: "Slovák",
+    en: "",
+    alternatives: [],
+  },
+  {
+    ostrava: "čupni",
+    cz: "Dřepni si",
+    en: "",
+    alternatives: [],
+  },
+  {
+    ostrava: "domaknut se",
+    cz: "dozvědět se",
+    en: "",
+    alternatives: [],
+  },
+  {
     ostrava: "dupa",
     cz: "zadek",
     en: "ass",
@@ -35,8 +119,50 @@ export const data = [
     alternatives: [],
   },
   {
+    ostrava: "fasovat",
+    cz: "obdržet",
+    en: "",
+    alternatives: ["dostat"],
+  },
+  {
+    ostrava: "fárat",
+    cz: "přemýšlet",
+    en: "",
+    alternatives: ["sjíždět do dolu", "uvažovat", "zamýšlet se"],
+  },
+  {
+    ostrava: "fifrat",
+    cz: "nimrat se v jídle",
+    en: "",
+    alternatives: [],
+  },
+  {
     ostrava: "fusekle",
     cz: "ponožky",
+    en: "",
+    alternatives: [],
+  },
+  {
+    ostrava: "chlampat",
+    cz: "pít",
+    en: "",
+    alternatives: ["pít přes míru", "pít hltavě"],
+  },
+  {
+    ostrava: "chlustat",
+    cz: "plivat",
+    en: "",
+    alternatives: [],
+  },
+  {
+    ostrava: "kaj robiš",
+    cz: "kde pracuješ",
+    en: "",
+    alternatives: [],
+  },
+  {
+    ostrava: "karabáč",
+    cz: "pomlázka",
     en: "",
     alternatives: [],
   },
@@ -59,6 +185,24 @@ export const data = [
     alternatives: [],
   },
   {
+    ostrava: "kypat",
+    cz: "bryndat",
+    en: "",
+    alternatives: [],
+  },
+  {
+    ostrava: "lajznout si",
+    cz: "dovolit si",
+    en: "",
+    alternatives: [],
+  },
+  {
+    ostrava: "luchat",
+    cz: "pršet",
+    en: "",
+    alternatives: ["lít"],
+  },
+  {
     ostrava: "majtky",
     cz: "kalhotky",
     en: "",
@@ -77,10 +221,40 @@ export const data = [
     alternatives: [],
   },
   {
+    ostrava: "máš recht",
+    cz: "máš pravdu",
+    en: "",
+    alternatives: [],
+  },
+  {
+    ostrava: "olačka",
+    cz: "kondom",
+    en: "",
+    alternatives: ["prezervativ"],
+  },
+  {
+    ostrava: "plytký",
+    cz: "mělký",
+    en: "",
+    alternatives: ["nehluboký"],
+  },
+  {
+    ostrava: "puntek",
+    cz: "poklopec",
+    en: "",
+    alternatives: [],
+  },
+  {
     ostrava: "půlka",
     cz: "panák",
     en: "",
-    alternatives: ["štamprle"],
+    alternatives: [],
+  },
+  {
+    ostrava: "rifle",
+    cz: "džíny",
+    en: "",
+    alternatives: ["džínsy", "texasky"],
   },
   {
     ostrava: "rondl",
@@ -89,10 +263,34 @@ export const data = [
     alternatives: [],
   },
   {
+    ostrava: "rožni",
+    cz: "rozsviť",
+    en: "",
+    alternatives: [],
+  },
+  {
     ostrava: "rygol",
     cz: "strouha",
     en: "",
     alternatives: ["škarpa", "příkop"],
+  },
+  {
+    ostrava: "ščur",
+    cz: "potkan",
+    en: "",
+    alternatives: [],
+  },
+  {
+    ostrava: "škráň",
+    cz: "tvář",
+    en: "",
+    alternatives: ["líčko", "líce"],
+  },
+  {
+    ostrava: "šolichat",
+    cz: "věnovat se jen povrchně",
+    en: "",
+    alternatives: [],
   },
   {
     ostrava: "štangle",
@@ -107,6 +305,12 @@ export const data = [
     alternatives: [],
   },
   {
+    ostrava: "štelovat",
+    cz: "nastavovat",
+    en: "",
+    alternatives: [],
+  },
+  {
     ostrava: "štrample",
     cz: "punčocháče",
     en: "",
@@ -117,6 +321,12 @@ export const data = [
     cz: "naběračka",
     en: "",
     alternatives: [],
+  },
+  {
+    ostrava: "tadyk",
+    cz: "zde",
+    en: "here",
+    alternatives: ["tu", "tady", "zde"],
   },
   {
     ostrava: "udolat",
@@ -134,12 +344,18 @@ export const data = [
     ostrava: "vybulit",
     cz: "spadnout",
     en: "",
-    alternatives: [""],
+    alternatives: [],
   },
   {
     ostrava: "zavázet",
     cz: "překážet",
     en: "",
     alternatives: ["zaclánět"],
+  },
+  {
+    ostrava: "žďorb",
+    cz: "haraburdí",
+    en: "",
+    alternatives: [],
   },
 ];
