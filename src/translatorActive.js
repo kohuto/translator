@@ -18,16 +18,11 @@ function TranslatorActive() {
 
   useEffect(() => {
     setCopyDone(false);
-    const selectedItem = data.find((item) => item[srcLang] === textInput);
+    const selectedItem = data.find((item) => item[srcLang].includes(textInput));
     if (selectedItem) {
       const translate = selectedItem[targetLang];
-      const alternatives = translate.slice(1); //TODO: what its length is 1
-      setAlternatives(alternatives);
-      /* if (targetLang === "sq") {
-        setTextOutput(selectedItem.en);
-      } else {
-        setTextOutput(selectedItem.cz);
-      }*/
+      const alternatives = translate.length > 1 ? translate.slice(1) : [];
+      setAlternatives(alternatives.length > 0 ? alternatives : []);
       setTextOutput(translate[0]);
     } else {
       setAlternatives([]);
