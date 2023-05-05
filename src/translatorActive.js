@@ -18,19 +18,22 @@ function TranslatorActive() {
 
   useEffect(() => {
     setCopyDone(false);
-    const selectedItem = data.find((item) => item.ostrava === textInput);
+    const selectedItem = data.find((item) => item[srcLang] === textInput);
     if (selectedItem) {
-      setAlternatives(selectedItem.alternatives);
-      if (targetLang === "sq") {
+      const translate = selectedItem[targetLang];
+      const alternatives = translate.slice(1); //TODO: what its length is 1
+      setAlternatives(alternatives);
+      /* if (targetLang === "sq") {
         setTextOutput(selectedItem.en);
       } else {
         setTextOutput(selectedItem.cz);
-      }
+      }*/
+      setTextOutput(translate[0]);
     } else {
       setAlternatives([]);
       setTextOutput(textInput);
     }
-  }, [textInput, targetLang]);
+  }, [textInput, targetLang, srcLang, textOutput]);
 
   function handleTextInputChange(event) {
     setTextInput(event.target.value);
