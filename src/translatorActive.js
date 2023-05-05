@@ -12,8 +12,8 @@ function TranslatorActive() {
   const [alternatives, setAlternatives] = useState([]);
   const [textInput, setTextInput] = useState("");
   const [textOutput, setTextOutput] = useState("");
-  const [sourceLang, setSourceLang] = useState("en");
-  const [targetLang, setTargetLang] = useState("fr");
+  const [srcLang, setSrcLang] = useState("cz");
+  const [targetLang, setTargetLang] = useState("os");
   const [copyDone, setCopyDone] = useState(false);
 
   useEffect(() => {
@@ -36,6 +36,10 @@ function TranslatorActive() {
     setTextInput(event.target.value);
   }
 
+  function handleSrcLangChange(event) {
+    setSrcLang(event.target.value);
+  }
+
   function handleTargetLangChange(event) {
     setTargetLang(event.target.value);
   }
@@ -49,25 +53,33 @@ function TranslatorActive() {
     navigator.clipboard.writeText(textOutput);
   }
 
+  function swapLang() {
+    setSrcLang(targetLang);
+    setTargetLang(srcLang);
+  }
+
   return (
     <div className="translator-container">
       <div className="language-selectors">
         <div className="source-selector language-selector side-column">
-          <select value={sourceLang}>
-            <option value="af">Ostravština</option>
+          <select value={srcLang} onChange={handleSrcLangChange}>
+            <option value="os">Ostravština</option>
+            <option value="cz">Čeština</option>
+            <option value="en">Angličtina</option>
           </select>
         </div>
 
         <div className="middle-column">
           <div className="swap-container">
-            <img src={swap} alt="swap" />
+            <img src={swap} alt="swap" onClick={swapLang} />
           </div>
         </div>
 
         <div className="target-selector language-selector side-column">
           <select value={targetLang} onChange={handleTargetLangChange}>
-            <option value="af">Čeština</option>
-            <option value="sq">Angličtina</option>
+            <option value="os">Ostravština</option>
+            <option value="cz">Čeština</option>
+            <option value="en">Angličtina</option>
           </select>
         </div>
       </div>
