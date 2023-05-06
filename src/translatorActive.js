@@ -16,6 +16,7 @@ function TranslatorActive() {
   const [targetLang, setTargetLang] = useState("os");
   const [copyDone, setCopyDone] = useState(false);
 
+  /* translation */
   useEffect(() => {
     setCopyDone(false);
     const selectedItem = data.find((item) => item[srcLang].includes(textInput));
