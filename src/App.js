@@ -1,26 +1,21 @@
+import React, { useState } from "react";
 import Translator from "./translator";
-import { data } from "./data";
-import TranslatorActive from "./translatorActive";
-
+import TermsList from "./termslist";
+import OffcanvasExample from "./navbar";
 function App() {
+  const [activeMode, setActiveMode] = useState(true);
+  const toggleMode = (mode) => {
+    setActiveMode(mode);
+  };
+
   return (
-    /* <>
-      {data.map((item, index) => (
-        <Translator
-          key={index}
-          textInput={item.ostrava}
-          textOutput={item.cz}
-          alternatives={item.alternatives}
-        />
-      ))}
-    </>*/
-    <>
-      <TranslatorActive
-        textInput={data[0].ostrava}
-        textOutput={data[0].cz}
-        alternatives={data[0].alternatives}
-      />
-    </>
+    <div>
+      <div style={{ position: "sticky", top: 0, height: "5vh" }}>
+        <OffcanvasExample toggleMode={toggleMode} />
+      </div>
+
+      {activeMode ? <Translator /> : <TermsList />}
+    </div>
   );
 }
 
