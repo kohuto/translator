@@ -7,6 +7,7 @@ import copied from "./images/checked.png";
 import audio from "./images/audio-speaker-on.png";
 import close from "./images/close.png";
 import { data } from "./data"; // import the data array
+import { colors_data } from "./colorsdata";
 
 function Translator() {
   const [alternatives, setAlternatives] = useState([]);
@@ -58,75 +59,77 @@ function Translator() {
   }
 
   return (
-    <div className="translator-container">
-      <div className="language-selectors">
-        <div className="source-selector language-selector side-column">
-          <select value={srcLang} onChange={handleSrcLangChange}>
-            <option value="os">Ostravština</option>
-            <option value="cz">Čeština</option>
-            <option value="en">Angličtina</option>
-          </select>
-        </div>
+    <div className="page">
+      <div className="translator-container">
+        <div className="language-selectors">
+          <div className="source-selector language-selector side-column">
+            <select value={srcLang} onChange={handleSrcLangChange}>
+              <option value="os">Ostravština</option>
+              <option value="cz">Čeština</option>
+              <option value="en">Angličtina</option>
+            </select>
+          </div>
 
-        <div className="middle-column">
-          <div className="swap-container">
-            <img src={swap} alt="swap" onClick={swapLang} />
+          <div className="middle-column">
+            <div className="swap-container">
+              <img src={swap} alt="swap" onClick={swapLang} />
+            </div>
+          </div>
+
+          <div className="target-selector language-selector side-column">
+            <select value={targetLang} onChange={handleTargetLangChange}>
+              <option value="os">Ostravština</option>
+              <option value="cz">Čeština</option>
+              <option value="en">Angličtina</option>
+            </select>
+          </div>
+        </div>
+        <div className="text-input-container">
+          <div className="close-container">
+            <img src={close} alt="copy" onClick={clearTextInput} />
+          </div>
+          <div className="side-column text-input">
+            <textarea
+              value={textInput}
+              onChange={handleTextInputChange}
+              placeholder="Zadejte text"
+            ></textarea>
+            <div className="icons-input">
+              <div>
+                <img src={mic} alt="mic" />
+              </div>
+              <div>
+                <img src={audio} alt="audio" />
+              </div>
+            </div>
+          </div>
+          <div className="middle-column"></div>
+          <div className="side-column text-output">
+            <textarea value={textOutput} placeholder="Překlad"></textarea>
+            <div className="icons-input">
+              <div>
+                <img
+                  src={copyDone ? copied : copy}
+                  alt="copy"
+                  onClick={copyTextOutput}
+                />
+              </div>
+              <div>
+                <img src={audio} alt="audio" />
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="target-selector language-selector side-column">
-          <select value={targetLang} onChange={handleTargetLangChange}>
-            <option value="os">Ostravština</option>
-            <option value="cz">Čeština</option>
-            <option value="en">Angličtina</option>
-          </select>
-        </div>
+        {/** alternatives.length > 0 && (
+          <div className="meanings-container">
+            <p>Překlady výrazu {textInput}</p>
+            <p style={{ color: "gray" }}>podstatné jméno</p>
+            <hr></hr>
+            <Alternatives alternatives={alternatives} />
+          </div>
+        ) */}
       </div>
-      <div className="text-input-container">
-        <div className="close-container">
-          <img src={close} alt="copy" onClick={clearTextInput} />
-        </div>
-        <div className="side-column text-input">
-          <textarea
-            value={textInput}
-            onChange={handleTextInputChange}
-            placeholder="Zadejte text"
-          ></textarea>
-          <div className="icons-input">
-            <div>
-              <img src={mic} alt="mic" />
-            </div>
-            <div>
-              <img src={audio} alt="audio" />
-            </div>
-          </div>
-        </div>
-        <div className="middle-column"></div>
-        <div className="side-column text-output">
-          <textarea value={textOutput} placeholder="Překlad"></textarea>
-          <div className="icons-input">
-            <div>
-              <img
-                src={copyDone ? copied : copy}
-                alt="copy"
-                onClick={copyTextOutput}
-              />
-            </div>
-            <div>
-              <img src={audio} alt="audio" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {alternatives.length > 0 && (
-        <div className="meanings-container">
-          <p>Překlady výrazu {textInput}</p>
-          <p style={{ color: "gray", marginTop: "20px" }}>podstatné jméno</p>
-          <hr></hr>
-          <Alternatives alternatives={alternatives} />
-        </div>
-      )}
     </div>
   );
 }
