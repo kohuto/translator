@@ -143,7 +143,7 @@ export const data = [
   },
   {
     os: ["fusekle"],
-    cz: ["ponožky"],
+    cz: ["ponožky", "fusky"],
     en: [""],
     explanation: "",
   },
