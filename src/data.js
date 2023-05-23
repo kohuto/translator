@@ -64,7 +64,7 @@ export const data = [
   {
     os: ["aji"],
     cz: ["i", "také", "rovněž"],
-    en: [""],
+    en: ["also, too"],
     img: aji,
     explanation:
       "příslovce, ekvivalenty by mohly být např. také, i, rovněž. Často používané v momentě, když se nemlžete rozhodnout mezi dvěma druhy alkoholu. Často to dopadne tak, že se prohlásí Dones to, aji to.",
@@ -72,7 +72,7 @@ export const data = [
   {
     os: ["amoleta"],
     cz: ["palačinka"],
-    en: [""],
+    en: ["pancakes"],
     img: amoleta,
     explanation:
       "často je lidmi považovaná za synonymum k omeletě. Objednáte-li si ale v ostravě amoletu s očekáváním chutné placky z vajíček, mohli byste být překvapeni, když vám donesou sladkou palačinku.",
@@ -80,7 +80,7 @@ export const data = [
   {
     os: ["balamutit"],
     cz: ["klamat", "obelhávat", "podvádět", "tahat za nos"],
-    en: [""],
+    en: ["deception", "lie", "defraud"],
     img: balamutit,
     explanation:
       "lidově řečeno tahat někoho za nos. V Ostravě si však dávejte pozor na to, když někoho balamutíte, mohli byste od něj totiž taky dostat baňu (viz následující pojem).",
@@ -88,7 +88,7 @@ export const data = [
   {
     os: ["baňa"],
     cz: ["rána", "facka"],
-    en: [""],
+    en: ["punch", "slap", "smack"],
     img: baňa,
     explanation:
       "nejčastěji ve větě „Chceš baňu?“. Není to otázka, na kterou odpovídate ano, protože člověk naporoti vám chce dát ránu. (též „natáhnout - chceš jednu natáhnout?“)",
@@ -96,7 +96,7 @@ export const data = [
   {
     os: ["baňka"],
     cz: ["vánoční koule", "ozdoba na stromek"],
-    en: [""],
+    en: ["christmas decoration"],
     img: baňka,
     explanation:
       "baňky si v Ostravě na stromečky nevěší pouze zapálení chemici s nadměrným množstvím chemického skla v domácnosti. Baňka je totiž obecný termín pro většinu skleněných ozdob, které visí na vánočním stromečku.",
@@ -104,7 +104,7 @@ export const data = [
   {
     os: ["bebech"],
     cz: ["zbytečná věc", "přebytečná věc"],
-    en: [""],
+    en: ["useless thing"],
     img: bebechy,
     explanation:
       "harampádí, zbytečné věci. Toto slovo slýchají především lidé s nutkavou potřebou cestovat s lodním kufrem na půldenní výlety. Pak je na místě otázka proč sebou tahá tolik bebechů.",
@@ -112,7 +112,7 @@ export const data = [
   {
     os: ["bedrunka"],
     cz: ["slunéčko sedmitečné"],
-    en: [""],
+    en: ["ladybug"],
     img: bedrunka,
     explanation: "slunéčko sedmitečné",
   },
@@ -135,7 +135,7 @@ export const data = [
   {
     os: ["bulač"],
     cz: ["záškolák", "člověk, co chodí za školu"],
-    en: [""],
+    en: ["absentee"],
     img: bulač,
     explanation:
       "absentér. Slovo poměrně mladé, vzniklo za komunismu, kdy se jím politicky hanlivě označovali ti, kteří vynechávali směny na šachtách. V modernějším pojetí je slovo často používané ve školním prostředí, kde je celá řada bulačů.",
@@ -143,7 +143,7 @@ export const data = [
   {
     os: ["bulat"],
     cz: ["chodit za školu"],
-    en: [""],
+    en: ["skipping school"],
     img: bulat,
     explanation:
       "bulá zásadně bulač. Hlavním rysem tedy je absence ve školních lavicích. Bulání se často provozuje jako skupinová činnost.",
@@ -151,7 +151,7 @@ export const data = [
   {
     os: ["cukle"],
     cz: ["nazouváky", "pantofle", "obuv bez paty"],
-    en: [""],
+    en: ["slippers"],
     img: cukle,
     explanation:
       "ohledně cuklí panují i na Ostravě časté neshody. Jedná se o různé typy bot, především otevřených, snadno obutelných. Konrétní druh obuvi je však potřeba odvodit z kontextu.",
@@ -167,7 +167,7 @@ export const data = [
   {
     os: ["cyp"],
     cz: ["nemotorný horník"],
-    en: [""],
+    en: ["clumsy miner"],
     img: cyp,
     explanation:
       "v hornickém slangu havíř-nemotora (začátečník). Velmi frekventované slovo v hovorové mluvě, kde slouží jako přirovnání v okamžiku, kdy se těžko hledá vhodný výraz. Příklady: „Zyma jak cyp“ (velký mráz). „Bylo tam vody do cypa“ (V řece byla vysoká hladina)",
@@ -175,7 +175,7 @@ export const data = [
   {
     os: ["cypovina"],
     cz: ["hloupost", "blbost"],
-    en: [""],
+    en: ["stupid", "bullshit"],
     img: cypovina,
     explanation:
       "blbost, hloupost. „Na cypoviny tě užije“ – myslíš jenom na blbosti. Podobně „On je ředitel přes cypoviny“- člověk, který má smysl pro humor a baví se životem",
@@ -183,7 +183,7 @@ export const data = [
   {
     os: ["čobol"],
     cz: ["Slovák"],
-    en: [""],
+    en: ["Slovak"],
     img: čobol,
     explanation:
       "Slovák, podnět dal výborný fotbalista Baníku Ostrava Jozef Határ, Slovák, který často chodil za rozhodčími s otázkou „Čo bolo, čo bolo ?“. Hrál v Baníku v 70.letech 20.století",
@@ -191,14 +191,14 @@ export const data = [
   {
     os: ["čupni"],
     cz: ["Dřepni si"],
-    en: [""],
+    en: ["squat down"],
     img: čupni,
     explanation: "máte-li si čupnout, je po vás vyžadováno, abyste podřepli.",
   },
   {
     os: ["domaknut se"],
     cz: ["dozvědět se"],
-    en: [""],
+    en: ["find out"],
     img: domknutse,
     explanation:
       "dozvědět se. „Stara se domakla, že...“ – průser vysoké nebezpečnosti v manželství.",
@@ -214,7 +214,7 @@ export const data = [
   {
     os: ["fasovat"],
     cz: ["obdržet"],
-    en: [""],
+    en: ["recieve"],
     img: fasovat,
     explanation:
       "obdržet, dostat. Používá se v různých významech - „nafasovat novu lopatu“, ale též „nafasovat na pysk“ – dostat přes hubu",
@@ -222,7 +222,7 @@ export const data = [
   {
     os: ["fárat"],
     cz: ["přemýšlet", "sjíždět do dolu", "uvažovat", "zamýšlet se"],
-    en: [""],
+    en: ["thinking", "going down into the mine"],
     img: fárat,
     explanation:
       "opět slovo více významu. Původním význam se používal pro sjíždění do dolů. Vzhledem k vymizení těžby však hrozil zánik tohoto slova, proto se mu přisoudil nový význam. V moderní podobě se jedná o ekvivalent slovu přemýšlet. Užíváno především ve spojení „moc nad tím fáráš“",
@@ -238,7 +238,7 @@ export const data = [
   {
     os: ["fusekle"],
     cz: ["ponožky", "fusky"],
-    en: [""],
+    en: ["socks"],
     img: fusekle,
     explanation:
       "fusekle je označení pro ponožku. Byť slovo evokuje množné číslo, fusekle je většinou pouze jedna, a navíc často děravá. Občas lze zaslechnout zkomoleninu slova - fusky. Když vám někdo řekne, že vám smrdí fusky, již víte, že byste měli zapracovat na osobní hygieně.",
@@ -246,7 +246,7 @@ export const data = [
   {
     os: ["garnýž"],
     cz: ["ta tyč, na které visí záclony"],
-    en: [],
+    en: ["cornice"],
     img: garnýž,
     explanation: "tyč, na které visí záclona či závěs u stropu.",
   },
@@ -260,7 +260,7 @@ export const data = [
   {
     os: ["chlustat"],
     cz: ["plivat"],
-    en: [""],
+    en: ["spit"],
     img: chlustat,
     explanation:
       "to, že na vás v ostravě někdo chlustne je poměrně pravděpodobné. Plivání slin je totiž oblíbenou zábavou tohoto regionu.",
@@ -268,7 +268,7 @@ export const data = [
   {
     os: ["kaj robiš"],
     cz: ["kde pracuješ"],
-    en: [""],
+    en: ["where do you work"],
     img: kajrobiš,
     explanation:
       "v ostravě neuslyšíte větu „kde pracuješ?“. Bo kaj robiš je kratší.",
@@ -276,7 +276,7 @@ export const data = [
   {
     os: ["karabáč"],
     cz: ["pomlázka"],
-    en: [""],
+    en: ["easter whip"],
     img: karabáč,
     explanation:
       "karabáč je označení pro pomlázku. Plete se z vrbových proutků a slouží k omlazení ženy o Velikonocích. Průměrný Ostravák však většinou svou pomlázku zapomíná již ve druhé domácnosti v důsledku alkoholového opojení.",
@@ -284,14 +284,14 @@ export const data = [
   {
     os: ["kobzole"],
     cz: ["brambory"],
-    en: [""],
+    en: ["potato"],
     img: kobzole,
     explanation: "brambor.",
   },
   {
     os: ["krýgl"],
     cz: ["půllitr"],
-    en: [""],
+    en: ["pint"],
     img: krýgl,
     explanation:
       "zkuste se vyvarovat používání slova půllitr, či dokonce sklenice piva. V takovém případě se vystavujete riziku, že dostanete krýglem po hlavě.",
@@ -299,7 +299,7 @@ export const data = [
   {
     os: ["křak"],
     cz: ["křoví"],
-    en: [""],
+    en: ["bush"],
     img: křak,
     explanation:
       "označení pro křoví. Křak je častým útočištěm lidí, kteří neudrží množství alkoholu v žaludku.",
@@ -307,15 +307,15 @@ export const data = [
   {
     os: ["kypat"],
     cz: ["bryndat"],
-    en: [""],
+    en: ["slobber"],
     img: kypat,
     explanation:
       "bryndat. Vyskytuje se spíše jako přídavné jméno, kdy jste upozorněn, že jste celý zkypaný.",
   },
   {
     os: ["lajznout si"],
-    cz: ["dovolit si"],
-    en: [""],
+    cz: ["odvážit se", "dovolit si"],
+    en: ["dare"],
     img: lajznoutsi,
     explanation:
       "dovolit si. Upzornění - v Ostravě si raději nikdy nedovolujte. Ostraváci jsou kolegiální tvorové, tudíž nikdy netojíte pouze proti jednomu soupeři.",
@@ -323,14 +323,14 @@ export const data = [
   {
     os: ["luchat"],
     cz: ["pršet", "lít"],
-    en: [""],
+    en: ["rain"],
     img: luchat,
     explanation: "pršet, lít. V Ostravě často uslyšíte kratší verzi - chcát.",
   },
   {
     os: ["luchec"],
     cz: ["silný déšť", "slejvák", "déšť"],
-    en: [""],
+    en: ["rain"],
     img: luchec,
     explanation:
       "podobně jako luchat. Luchec je však většinou krátká přeháňka.",
@@ -338,7 +338,7 @@ export const data = [
   {
     os: ["majtky"],
     cz: ["kalhotky"],
-    en: [""],
+    en: ["panties"],
     img: majtky,
     explanation:
       "Po spatření výše zmíněných cecků, jdou většinou k zemi rovnou i majtky. Tento kus oblečení slouží k zakrytí spodních ženských partií.",
@@ -346,7 +346,7 @@ export const data = [
   {
     os: ["majznout"],
     cz: ["praštit", "bouchnout", "udeřit"],
-    en: [""],
+    en: ["punch", "hit"],
     img: majznout,
     explanation:
       "úzce souvisí s výše zmíněným pojmem baňa. Přechod od „dám ti baňu“ k „majznutí“ je totiž stejný, jako přechod od slov k činům.",
@@ -354,7 +354,7 @@ export const data = [
   {
     os: ["maras"],
     cz: ["nepořádek", "cool"],
-    en: [""],
+    en: ["cool", "mess"],
     img: maras,
     explanation:
       "bahno, kal, ale též nepořádek v obecném smyslu. „Na obci je maras“ – na magistrátě je chaos, bordel",
@@ -362,7 +362,7 @@ export const data = [
   {
     os: ["máš recht"],
     cz: ["máš pravdu"],
-    en: [""],
+    en: ["you are right"],
     img: mášrecht,
     explanation:
       "máš pravdu. Tuto větu však kvůli Ostravské povaze spíše neuslyšíte.",
@@ -370,14 +370,14 @@ export const data = [
   {
     os: ["olačka"],
     cz: ["kondom", "prezervativ"],
-    en: [""],
+    en: ["preservative"],
     img: olačka,
     explanation: "prezervativ",
   },
   {
     os: ["plytký"],
     cz: ["mělký", "nehluboký"],
-    en: [""],
+    en: ["shallow"],
     img: plytký,
     explanation:
       "mělký. Na plytkém talíři se servíruje hlavní chod oběda. Polívku však do něj raději nelijte.",
@@ -385,7 +385,7 @@ export const data = [
   {
     os: ["puntek"],
     cz: ["poklopec"],
-    en: [""],
+    en: ["zip", "heatch"],
     img: puntek,
     explanation:
       "nikdy nechcete, aby toto slovo bylo adresováno vám. Jedná se o poklopec a věřte, že na to, že ho máte zapnutý, vás nikdo upozorňovat nebude.",
@@ -393,7 +393,7 @@ export const data = [
   {
     os: ["půlka"],
     cz: ["panák"],
-    en: [""],
+    en: ["shot"],
     img: půlka,
     explanation:
       "jedno z frekventovanějších slov. Půlky se nikdy nepijou po jedné, pokud máte obě nohy.",
@@ -401,14 +401,14 @@ export const data = [
   {
     os: ["rifle"],
     cz: ["džíny", "džínsy", "texasky"],
-    en: [""],
+    en: ["jeans"],
     img: rifle,
     explanation: "džíny.",
   },
   {
     os: ["rondl"],
     cz: ["kruhový objezd"],
-    en: [""],
+    en: ["roundabout"],
     img: rondl,
     explanation:
       "neboli krůhový objezd. Zajímavostí je, že Havířov - město sousedící s Ostravou - se může chlubit největším rondlem ve střední Evropě.",
@@ -416,7 +416,7 @@ export const data = [
   {
     os: ["rožni"],
     cz: ["rozsviť"],
-    en: [""],
+    en: ["turn light on"],
     img: rožni,
     explanation:
       "pokud se vám již začaly sbíhat sliny při představě nad grilovačkou, budete zklamaní. Někdo se vám akorát snaží naznačit, že je v místnosti tma (jak cyp) a vy máte rozsvítit světlo.",
@@ -424,21 +424,21 @@ export const data = [
   {
     os: ["rygol"],
     cz: ["strouha", "škarpa", "příkop"],
-    en: [""],
+    en: ["trenches"],
     img: rygol,
     explanation: "jedná se o škarpu, často podél cest. ",
   },
   {
     os: ["ščur"],
     cz: ["potkan"],
-    en: [""],
+    en: ["rat"],
     img: ščur,
     explanation: "potkan.",
   },
   {
     os: ["škráň"],
     cz: ["tvář", "líčko", "líce"],
-    en: [""],
+    en: ["cheek"],
     img: škráň,
     explanation:
       "především babičky mají nutkání tahat své vnoučky za škráně - líčka. V zimě, kdy ani uhlí nezahřeje, škráně získávají červenou barvu.",
@@ -446,7 +446,7 @@ export const data = [
   {
     os: ["šolichat"],
     cz: ["věnovat se jen povrchně"],
-    en: [""],
+    en: ["superficial attention"],
     img: šolichat,
     explanation:
       "něčemu se věnovat jen povrchně.“Trochu to pošolichej a dobre“.",
@@ -454,7 +454,7 @@ export const data = [
   {
     os: ["štangle"],
     cz: ["tyč", "tyč na kole", "palice salámu"],
-    en: [""],
+    en: ["rod"],
     img: štangle,
     explanation:
       "jeden z částých způsobu přepravy v Ostravě je jízda na štangli - v tu chvíli se (ne úplně pohodlně) vezete na rámu jízdního kola jako spolujezdec. Druhým významem je štangle salámu, tedy šiška salámu.",
@@ -462,7 +462,7 @@ export const data = [
   {
     os: ["štekle"],
     cz: ["podpatky"],
-    en: [""],
+    en: ["high-heels"],
     img: štekle,
     explanation:
       "štekle se vyzančují charakteristickým klapáním na chodníku. Jedná se o vysoké podpatky.",
@@ -470,14 +470,14 @@ export const data = [
   {
     os: ["štelovat"],
     cz: ["nastavovat"],
-    en: [""],
+    en: ["set up"],
     img: štelovat,
     explanation: "nastavovat, seřizovat ( „pošteluj mi motor u auta“ )",
   },
   {
     os: ["štrample"],
     cz: ["punčocháče"],
-    en: [""],
+    en: ["tights"],
     img: štrample,
     explanation:
       "punčocháče. Kdysi používané v zimě jako podvlíkačky připomínající spíše ponožky.",
@@ -485,7 +485,7 @@ export const data = [
   {
     os: ["šufánek"],
     cz: ["naběračka"],
-    en: [""],
+    en: ["ladle"],
     img: šufánek,
     explanation:
       "slovo je dobré znát předveším pokud jedete navštívit do Ostravy babičku. Bude se vás totiž ptát, kolik šufánků polévky si dáte. V tu cvhíli se vás ptá, kolik naběraček vám má nalít.",
@@ -500,7 +500,7 @@ export const data = [
   {
     os: ["udolat"],
     cz: ["přemoct", "přeprat"],
-    en: [""],
+    en: ["overpower"],
     img: udolat,
     explanation:
       "slovo dnes již spíše archaické. Bylo tradicí, že princ musel udolat draka, aby si zasloužil princeznu.",
@@ -508,7 +508,7 @@ export const data = [
   {
     os: ["vaječina"],
     cz: ["míchaná vajíčka", "míchaná vejce"],
-    en: [""],
+    en: ["scrambled eggs"],
     img: vaječina,
     explanation:
       "s míchanými vajíčky v Ostravě nepochodíte. V Ostravě se totiž jí vaječina.",
@@ -516,14 +516,14 @@ export const data = [
   {
     os: ["vybulit"],
     cz: ["spadnout"],
-    en: [""],
+    en: ["fall"],
     img: vybulit,
     explanation: "spadnout. Ať už kvůli kluzkému povrchu, či přemíře alkoholu.",
   },
   {
     os: ["zavázet"],
     cz: ["překážet", "zaclánět"],
-    en: [""],
+    en: ["hinder"],
     img: zavázet,
     explanation:
       "pokud vám někdo řekl nezavazej, urychleně změňte pozici, jelikož překažíte. Po přečtení tohoto slovníku již asi není překvapením, že dloubodobější zavázení by pro vás nemuselo dopadnout dobře.",
@@ -531,7 +531,7 @@ export const data = [
   {
     os: ["žďorb"],
     cz: ["haraburdí"],
-    en: [""],
+    en: ["junk"],
     img: žďorb,
     explanation: "haraburdí",
   },
