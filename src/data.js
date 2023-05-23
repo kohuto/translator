@@ -67,7 +67,7 @@ export const data = [
     en: ["also, too"],
     img: aji,
     explanation:
-      "příslovce, ekvivalenty by mohly být např. také, i, rovněž. Často používané v momentě, když se nemlžete rozhodnout mezi dvěma druhy alkoholu. Často to dopadne tak, že se prohlásí Dones to, aji to.",
+      "příslovce, ekvivalenty by mohly být také, i, rovněž. Často používané v momentě, když se nemůžete rozhodnout mezi dvěma druhy alkoholu. Často to dopadne tak, že se prohlásí Dones to, aji to.",
   },
   {
     os: ["amoleta"],
@@ -75,7 +75,7 @@ export const data = [
     en: ["pancakes"],
     img: amoleta,
     explanation:
-      "často je lidmi považovaná za synonymum k omeletě. Objednáte-li si ale v ostravě amoletu s očekáváním chutné placky z vajíček, mohli byste být překvapeni, když vám donesou sladkou palačinku.",
+      "běžný člověk si myslí, že se jedná o synonynum k omeletě. Objednáte-li si ale v Ostravě amoletu, připravte se na zklamání, když vám místo vajíček donesou sladkou palačinku.",
   },
   {
     os: ["balamutit"],
